@@ -11,7 +11,7 @@ public class Exercise4 {
 		
 		private int count = 0;
 		
-		public int increment() {
+		public  synchronized int increment() {
 			return ++count;
 		}
 		
@@ -19,7 +19,7 @@ public class Exercise4 {
 			return count;
 		}
 		
-		public void resetCount() {
+		public synchronized void resetCount() {
 			count = 0;
 		}
 
