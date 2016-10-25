@@ -36,7 +36,7 @@ public class Exercise5 {
 	}
 		
 	public static void main(String a[]){
-		Singleton st = new Singleton();
+		Singleton st = Singleton.getInstance();
 		st.doSomeThing();
 	}
 }
